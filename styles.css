@@ -1,5 +1,45 @@
+* {
+  color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+#logo {
+  margin: 0;
+}
+
+#logo img {
+  width: 400px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header, section {
+  margin-bottom: 80px;
+}
+
 body {
   text-align: center;
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ol li {
+  display: inline;
+}
+
+nav ol li:not(:last-child) {
+  padding-right: 60px;
 }
 
 ul {
@@ -11,4 +51,15 @@ ul {
 
 #map {
   margin: 30px 0 0 0;
+}
+
+.grid-container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+#services-grid {
+  
 }
