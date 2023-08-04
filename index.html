@@ -9,7 +9,15 @@
   <body>
     <header id="home">
       <h1 id="logo">
-        <img src="static/kinochromelogo.png" alt="Kinochrome Studio"/>
+        <img 
+          srcset="
+            static/kinochromelogo.png 1x,
+	    static/kinochromelogo@2x.png 2x,
+            static/kinochromelogo@3x.png 3x
+          "
+          src="static/kinochromelogo.png" 
+          alt="Kinochrome Studio"
+        />         
       </h1>
       <nav>
         <ol>
