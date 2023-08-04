@@ -26,6 +26,11 @@ header, section {
   margin-bottom: 80px;
 }
 
+section img {
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   text-align: center;
   margin: 0;
