@@ -45,7 +45,7 @@ nav ol li {
 }
 
 nav ol li:not(:last-child) {
-  padding-right: 60px;
+  padding-right: 50px;
 }
 
 ul {
